@@ -11,8 +11,9 @@ nav {
   height: 35px;
   margin: 0 auto;
   padding-top: 0px;
-  background: rgba(13, 43, 50, 0.9);
+
   margin-bottom: 50px;
+  width: 85%;
 }
 ul {
   list-style-type: none;
@@ -114,6 +115,13 @@ button a:hover {
   margin: 0 auto;
   flex-wrap: wrap;
   margin-top: 40px;
+  box-sizing: border-box;
+}
+.plans div {
+  box-sizing: border-box;
+}
+.plans div:hover {
+  box-sizing: border-box;
 }
 
 .plans img {
@@ -122,6 +130,7 @@ button a:hover {
   border-radius: 5px;
   padding: 2px;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 .plans img:hover {
   width: 160px;
@@ -129,6 +138,7 @@ button a:hover {
   border: 1px solid black;
   cursor: pointer;
   padding: 5px;
+  box-sizing: border-box;
 }
 .plans div p {
   text-align: center;
@@ -149,45 +159,54 @@ button a:hover {
   color: white;
   font-size: 23px;
 }
-.signup {
-  display: flex;
-}
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.fly {
-  width: 70%;
-  margin: 0 auto;
-}
-h4 {
-  font-weight: bold;
-  font-size: 25px;
-  margin: 0;
-}
+
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000b18;
+  background-color: rgba(0, 11, 24);
   color: white;
-  padding: 10px;
+  padding: 0px;
   margin-top: 40px;
   font-size: 18px;
 }
-.fly p {
-  margin-top: 10px;
+.fly {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 40px 0;
+  padding: 30px;
+  margin-top: 30px;
+  gap: 5%;
+  border: 1px solid black;
 }
-.btn a {
-  text-decoration: none;
-  color: white;
-  padding: 20px 30px;
-  font-weight: bold;
+.fly .btn {
+  align-self: center;
+  background-color: ;
+}
+.fly .p {
+  width: 60%;
+}
+h4 {
+  margin: 0;
+  font-size: 25px;
+}
+.fly p {
   font-size: 18px;
 }
 .btn button {
-  border-radius: 15px;
-  padding: 10px 0;
   background-color: #000b18;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+.btn button:hover {
+  background-color: blue;
+  border: 1px solid white;
 }
